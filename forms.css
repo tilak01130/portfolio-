@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #0d1117;
+    color: #c9d1d9;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.container {
+    width: 360px;
+    text-align: center;
+}
+
+.logo {
+    width: 48px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.form-box {
+    background: #161b22;
+    border: 1px solid #30363d;
+    padding: 20px;
+    border-radius: 6px;
+    text-align: left;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input {
+    width: 100%;
+    padding: 9px;
+    background: #0d1117;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    color: white;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+input:focus {
+    border-color: #1f6feb;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(31,111,235,0.3);
+}
+
+.password-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.forgot {
+    color: #58a6ff;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.signin-btn {
+    width: 100%;
+    background: #238636;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.signin-btn:hover {
+    background: #2ea043;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    color: #8b949e;
+}
+.divider span {
+    flex: none;
+    padding: 0 10px;
+}
+.divider:before, 
+.divider:after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #30363d;
+}
+
+.oauth {
+    width: 100%;
+    border: 1px solid #30363d;
+    background: #21262d;
+    padding: 10px;
+    border-radius: 6px;
+    color: #c9d1d9;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.oauth img {
+    width: 18px;
+}
+
+.signup {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.signup a {
+    color: #58a6ff;
+}
+
+.passkey {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+#message {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
