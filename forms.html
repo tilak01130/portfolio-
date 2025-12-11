@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tilak | Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: #f5f5f5;
+            color: #222;
+        }
+
+        header {
+            width: 100%;
+            background: #111;
+            color: #fff;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        header h1 {
+            font-size: 24px;
+            letter-spacing: 1px;
+        }
+
+        nav a {
+            color: #fff;
+            margin-left: 20px;
+            text-decoration: none;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffcc00;
+        }
+
+        .hero {
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            max-width: 600px;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            background: #111;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #ffcc00;
+            color: #111;
+        }
+
+        section {
+            padding: 60px 40px;
+        }
+
+        h3.section-title {
+            font-size: 32px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .about {
+            max-width: 800px;
+            margin: auto;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .project-card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+            transition: 0.3s;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #111;
+            color: #fff;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tilak</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h2>Hi, I'm Tilak</h2>
+        <p>Aspiring AI/ML Engineer, Boxer, Designer & Creator. Passionate about building cool things and telling stories.</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </section>
+
+    <section id="about">
+        <h3 class="section-title">About Me</h3>
+        <p class="about">
+            I'm a B.Tech CSE (AI & ML) student at Malla Reddy University, passionate about tech, boxing, design, and filmmaking. I love creating things—whether it's apps, ML models, streetwear brand content, or short films. My goal is to combine creativity with technology and build things that feel alive.
+        </p>
+    </section>
+
+    <section id="projects">
+        <h3 class="section-title">Projects</h3>
+        <div class="projects">
+            <div class="project-card">
+                <h4>Fitness Workout Recommendation Model</h4>
+                <p>A lightweight ML model that recommends workouts based on user preferences.</p>
+            </div>
+
+            <div class="project-card">
+                <h4>Music Recommendation Model</h4>
+                <p>Strict-input-based music recommender using mood, genre, and artist filters.</p>
+            </div>
+
+            <div class="project-card">
+                <h4>Ego Cross Brand Website</h4>
+                <p>A streetwear brand site inspired by Stussy aesthetics.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h3 class="section-title">Contact</h3>
+        <p style="text-align:center; font-size:18px;">Reach me at: <strong>tilakp113011@gmail.com</strong></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Tilak. All rights reserved.</p>
+    </footer>
+</body>
+</html>
